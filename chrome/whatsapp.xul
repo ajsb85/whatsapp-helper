@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MIT/X11 License
+ * 
+ * Copyright (c) 2013 Alexander Salas
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * Contributor(s):
+ *
+ *   Alexander Salas <a.salas@ieee.org> (Original Author)
+ *
+ * ***** END LICENSE BLOCK ***** */
+-->
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://adbkeyevent/content/whatsapp.css" type="text/css" ?>
+<!-- Extremely recommended to keep this css include!! -->
+<window id="rootWnd" title="WhatsApp" windowtype="whatsapp:main" persist="screenX screenY width height sizemode"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+	<script type="application/javascript" src="chrome://adbkeyevent/content/whatsapp.js" />
+<textbox id="pnNote" multiline="true" rows="2" cols="70" onkeypress="return pnCountNoteChars(event);"/>
+</window>
