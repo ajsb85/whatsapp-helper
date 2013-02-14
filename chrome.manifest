@@ -1,1 +1,12 @@
 content adbkeyevent chrome/
+
+locale  adbkeyevent	de locale/de/
+locale  adbkeyevent	en locale/en/
+locale  adbkeyevent	es locale/es/
+locale  adbkeyevent	ja locale/ja/
+locale  adbkeyevent	no locale/no/
+locale  adbkeyevent	pt-BR locale/pt-BR/
+locale  adbkeyevent	ru locale/ru/
+locale  adbkeyevent	sv-SE locale/sv-SE/
+locale  adbkeyevent	zh-CN locale/zh-CN/
+locale  adbkeyevent	zh-TW locale/zh-TW/
