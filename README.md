@@ -1,4 +1,4 @@
 whatsapp-helper
 ===============
 
-Useful for WhatsApp.
+For easy input text on WhatsApp with ADB. 
